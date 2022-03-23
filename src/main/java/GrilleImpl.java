@@ -3,7 +3,7 @@ package src.main.java;
 /**
  * Interface d'une grille de sudoku
  */
-public interface Grille {
+public interface GrilleImpl {
     /**
      * Caractere de case vide
      */
