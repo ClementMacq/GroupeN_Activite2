@@ -1,5 +1,3 @@
-package src.main.java;
-
 /**
  * Interface d'une grille de sudoku
  */
