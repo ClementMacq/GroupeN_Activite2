@@ -33,7 +33,18 @@
 </dependencies>
 
 <build>
+
     <plugins><!-- lister les plugins et leur version permet d'eviter que maven prenne celui qui trouvera par defaut -->
+
+        <!-- pour avoir le rapport spotbugs -->
+        <plugin>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-maven-plugin</artifactId>
+            <version>4.5.3.0</version>
+            <configuration>
+                <includeTestSourceDirectory>true</includeTestSourceDirectory>
+            </configuration>
+        </plugin>
 
         <plugin><!-- pour compiler -->
             <groupId>org.apache.maven.plugins</groupId>
