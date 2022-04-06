@@ -4,11 +4,10 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 
-class GrilleImplTest {
+class GrilleTest {
 
     @Test
     public void testOK() {
-        assertEquals( 4, GrilleImpl.getDimension(12, 16));
-
+        
     }
 }

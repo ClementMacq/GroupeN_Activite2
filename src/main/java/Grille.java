@@ -1,7 +1,7 @@
 /**
  * Interface d'une grille de sudoku
  */
-public interface GrilleImpl {
+public interface Grille {
     /**
      * Caractere de case vide
      */
